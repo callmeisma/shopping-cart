@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Glasses",
+        "description": "Solid wood glasses",
+        "path": "glasses",
+        "image": "",
+        "price": 20   
+    },
+    {
+        "name": "Jacket",
+        "description": "Denim sustainable jacket",
+        "path": "jacket",
+        "image": "",
+        "price": 40        
+    },
+    {
+        "name": "Hat",
+        "description": "Top of the morning",
+        "path": "hat",
+        "image": "",
+        "price": 10        
+    }
+]
