@@ -1,25 +1,107 @@
-.App {
-  text-align: center;
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+.app {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Lato", sans-serif;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
 }
 
 nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 10vh;
-  background: lightslategray;
+  height: 60px;
+  background: #333;
   color: white;
 }
 
+li {
+  pointer-events: none;
+}
+
 .nav-links {
-  width: 40%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   list-style: none;
 }
 
 .link {
-  color:white;
+  color: white;
   text-decoration: none;
+}
+
+.link:hover {
+  color: lightsalmon;
+}
+
+.home .shop .about .cart {
+  height: 90vh;
+}
+
+.home {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1528629297340-d1d466945dc5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1822&q=80")
+      center center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card-img-top {
+  height: 350px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-items: center;
+}
+
+.soon {
+  background: #333;
+  color: white;
+  flex-grow: 1;
+}
+
+.card:hover {
+  background-color: lightsalmon;
+}
+
+.prod-img {
+  width: 66%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50%;
+}
+
+.about-img {
+  width: 33%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50%;
+}
+
+.thumbnail {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: 50%;
+}
+
+.checkout {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1534787238916-9ba6764efd4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1931&q=80")
+      center center;
+  background-repeat: no-repeat;
+}
+
+button:hover {
+  background-color: lightsalmon !important;
+  border-color: lightsalmon !important;
 }

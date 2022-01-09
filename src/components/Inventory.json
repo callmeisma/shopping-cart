@@ -1,23 +1,23 @@
 [
     {
-        "name": "Glasses",
-        "description": "Solid wood glasses",
-        "path": "glasses",
-        "image": "",
-        "price": 20   
+        "name": "Peugeot T5",
+        "description": "Aluminum Road Bike",
+        "path": "peugeot",
+        "image": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
+        "price": 400   
     },
     {
-        "name": "Jacket",
-        "description": "Denim sustainable jacket",
-        "path": "jacket",
-        "image": "",
-        "price": 40        
+        "name": "YO Handle",
+        "description": "Carbon Fiber Handle",
+        "path": "handle",
+        "image": "https://images.unsplash.com/photo-1497515098781-e965764ab601?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1721&q=80",
+        "price": 150        
     },
     {
-        "name": "Hat",
-        "description": "Top of the morning",
-        "path": "hat",
-        "image": "",
-        "price": 10        
+        "name": "Haul",
+        "description": "Carbon Fiber Road Bike",
+        "path": "haul",
+        "image": "https://images.unsplash.com/photo-1571068316344-75bc76f77890?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
+        "price": 1000       
     }
 ]
