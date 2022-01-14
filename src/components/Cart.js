@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-// import uniqid from 'uniqid';
 import { Link } from "react-router-dom";
 
 function Cart(props) {

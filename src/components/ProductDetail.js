@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Inventory from "./Inventory.json";
 
 function ProductDetail(props) {
+  console.log(props);
   useEffect(() => {
     getProd();
   });
