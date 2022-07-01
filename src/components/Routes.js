@@ -30,6 +30,9 @@ function Routes(props) {
         )}
       />
       <Route path="/checkout" exact component={Checkout} />
+      
+      {/* Redirect GH Pages load url to home */}
+      <Route path="/shopping-cart" exact component={Home} />
     </Switch>
   );
 }
